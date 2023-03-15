@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @include media-breakpoint-up(md) {
   body {
-    background-color: color.scale($itFactory, $lightness: 80%);
+    background-color: color.scale(blue, $lightness: 80%);
   }
 }
 
